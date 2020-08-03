@@ -1,0 +1,32 @@
+.main-nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav1-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 300px;
+}
+
+.nav2-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-selectors {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+  list-style: none;
+  margin: 0 auto;
+}
+.nav-list {
+  text-decoration: none;
+}
