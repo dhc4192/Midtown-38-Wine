@@ -7,7 +7,9 @@
 .nav1-container {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .logo-img {
@@ -24,10 +26,22 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-
+  background-color: rgb(19, 19, 19);
+  height: 40px;
   list-style: none;
   margin: 0 auto;
 }
-.nav-list {
+
+.nav-selectors a {
   text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100%;
+}
+
+.free {
+  color: #963939;
 }
