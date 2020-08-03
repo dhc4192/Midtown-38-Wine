@@ -5,14 +5,29 @@
   cursor: pointer;
   border: none;
 }
-/* .menu-item-wrapper.active {
-  border: 1px blue solid;
-}
-.menu-item.active {
-  border: 1px green solid;
-} */
 
 .scroll-menu-arrow {
   padding: 20px;
   cursor: pointer;
+  font-size: 20px;
+}
+
+.save-container {
+  margin-top: 50px;
+}
+
+.best-container{
+  margin-top: 50px;
+}
+
+.save-text{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.best-text{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 100px;
 }
