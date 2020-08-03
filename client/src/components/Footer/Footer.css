@@ -1,0 +1,17 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;   
+}
+
+.footer-phone-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+

@@ -1,7 +1,6 @@
 .search-bar-container {
   position: relative;
   margin-top: 25px;
-
 }
 
 .search-bar {
@@ -9,6 +8,8 @@
   height: 25px;
   padding-left: 30px;
   font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 .search-icon {
