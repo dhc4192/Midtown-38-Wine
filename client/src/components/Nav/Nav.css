@@ -30,4 +30,14 @@
 }
 .nav-list {
   text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline;
 }
