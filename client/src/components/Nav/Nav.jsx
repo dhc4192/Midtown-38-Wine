@@ -56,7 +56,7 @@ export default class Nav extends Component {
               <li className="nav-list">CONTACT US</li>
             </Link>
           </div>
-<!--           <ul className="nav-selectors">
+         {/* <ul className="nav-selectors">
             <NavLink className='nav-link' activeClassName="active" to="/wine">
               <li className="nav-list">WINES</li>
             </NavLink>
@@ -75,7 +75,7 @@ export default class Nav extends Component {
             <NavLink className='nav-link' activeClassName="active" to="/contact">
               <li className="nav-list">CONTACT US</li>
             </NavLink>
-          </ul> -->
+          </ul>  */}
         </div>
       </div>
     );
