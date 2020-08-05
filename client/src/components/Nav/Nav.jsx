@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Logo from "../Assets/38WinesStore.jpeg";
 import AccountIcon from "../Assets/account-icon.png";
 import CartIcon from "../Assets/cart-icon.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Nav.css";
 
 export default class Nav extends Component {
@@ -56,6 +56,26 @@ export default class Nav extends Component {
               <li className="nav-list">CONTACT US</li>
             </Link>
           </div>
+<!--           <ul className="nav-selectors">
+            <NavLink className='nav-link' activeClassName="active" to="/wine">
+              <li className="nav-list">WINES</li>
+            </NavLink>
+            <NavLink className='nav-link' activeClassName="active" to="/spirit">
+              <li className="nav-list">SPIRITS</li>
+            </NavLink>
+            <NavLink className='nav-link' activeClassName="active" to="/sake">
+              <li className="nav-list">SAKE</li>
+            </NavLink>
+            <NavLink className='nav-link' activeClassName="active" to="/kosher">
+              <li className="nav-list">KOSHER</li>
+            </NavLink>
+            <NavLink className='nav-link' activeClassName="active" to="/news">
+              <li className="nav-list">NEWS</li>
+            </NavLink>
+            <NavLink className='nav-link' activeClassName="active" to="/contact">
+              <li className="nav-list">CONTACT US</li>
+            </NavLink>
+          </ul> -->
         </div>
       </div>
     );

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category":"Cabernet Sauvignon", 
+    "category": "Cabernet Sauvignon",
     "vine_yard": "Duckhorn",
     "grapes": "Cabernet Sauvignon",
     "country": "United States",
@@ -9,12 +9,11 @@
     "year": 2017,
     "price": 69.99,
     "sale_price_percent": 10,
-    "description": "Our Cabernet Sauvignon is a blend of individual vineyard lots, utilizing exceptional fruit from our estate vineyards and independent growers. This wine embodies the complexity of the valley, while offering a seamless balance between fruit, oak and tannins. To add nuance the Cabernet is blended with Merlot, yielding a wine that is approachable in its youth, yet worthy of cellaring.", 
-    "size":750,
-    "types":"",
+    "description": "Our Cabernet Sauvignon is a blend of individual vineyard lots, utilizing exceptional fruit from our estate vineyards and independent growers. This wine embodies the complexity of the valley, while offering a seamless balance between fruit, oak and tannins. To add nuance the Cabernet is blended with Merlot, yielding a wine that is approachable in its youth, yet worthy of cellaring.",
+    "size": 750,
+    "types": "",
     "abv": 14.5,
-    "tasting_notes":"earthy, dark, fruity",
-    "img":"https://products1.imgix.drizly.com/ci-duckhorn-cabernet-sauvignon-60cd9ef5d291b37b.jpeg?auto=format%2Ccompress&fm=jpg&q=20"
-
+    "tasting_notes": "earthy, dark, fruity",
+    "img": "https://products1.imgix.drizly.com/ci-duckhorn-cabernet-sauvignon-60cd9ef5d291b37b.jpeg?auto=format%2Ccompress&fm=jpg&q=20"
   }
 ]

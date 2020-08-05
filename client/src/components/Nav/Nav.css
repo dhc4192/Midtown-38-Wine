@@ -77,6 +77,16 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 /* Change color of dropdown links on hover */
