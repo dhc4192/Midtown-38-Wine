@@ -10,10 +10,10 @@ export default class Nav extends Component {
     return (
       <div className="main-nav-container">
         <div className="nav1-container">
-          <Link to="/">
-            <img className="logo-img" src={Logo} alt="Midtown 38 Wines logo" />
-          </Link>
-          <h1>NYC FREE 1 HOUR DELIVERY</h1>
+          <img className="logo-img" src={Logo} alt="Midtown 38 Wines logo" />
+          <h1>
+            NYC <span className="free">FREE</span> 1 HOUR DELIVERY
+          </h1>
           <div>
             <img src={AccountIcon} alt="My account icon" />
             <p>MY ACCOUNT</p>
@@ -25,7 +25,38 @@ export default class Nav extends Component {
         </div>
 
         <div className="nav2-container">
-          <ul className="nav-selectors">
+          <div className="nav-selectors">
+            <div class="dropdown">
+              <button class="dropbtn">WINES</button>
+              <div class="dropdown-content">
+                <Link>
+                  <li href="#">Link 1</li>
+                </Link>
+                <Link>
+                  <li href="#">Link 2</li>
+                </Link>
+                <Link>
+                  <li href="#">Link 3</li>
+                </Link>
+              </div>
+            </div>
+            <Link>
+              <li className="nav-list">SPIRITS</li>
+            </Link>
+            <Link>
+              <li className="nav-list">SAKE</li>
+            </Link>
+            <Link>
+              <li className="nav-list">KOSHER</li>
+            </Link>
+            <Link>
+              <li className="nav-list">NEWS</li>
+            </Link>
+            <Link>
+              <li className="nav-list">CONTACT US</li>
+            </Link>
+          </div>
+<!--           <ul className="nav-selectors">
             <NavLink className='nav-link' activeClassName="active" to="/wine">
               <li className="nav-list">WINES</li>
             </NavLink>
@@ -44,7 +75,7 @@ export default class Nav extends Component {
             <NavLink className='nav-link' activeClassName="active" to="/contact">
               <li className="nav-list">CONTACT US</li>
             </NavLink>
-          </ul>
+          </ul> -->
         </div>
       </div>
     );
